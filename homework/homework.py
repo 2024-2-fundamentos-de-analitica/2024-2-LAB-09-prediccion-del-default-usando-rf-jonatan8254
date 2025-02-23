@@ -56,8 +56,8 @@ def hiperParametros(pipe, x, y):
     Se amplía el espacio de búsqueda para lograr un modelo con mayor precisión.
     """
     parametros = {
-        "classifier__n_estimators": [200, 300, 400],
-        "classifier__max_depth": [10, 20, None],
+        "classifier__n_estimators": [200],
+        "classifier__max_depth": [10, None],
         "classifier__min_samples_split": [2, 5, 10],
         "classifier__min_samples_leaf": [1, 2, 4],
     }
